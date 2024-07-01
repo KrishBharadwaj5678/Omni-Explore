@@ -23,7 +23,7 @@ lang = [f"{code}: {getAllLang[code]}" for code in getAllLang]
 
 # User input: language and topic
 language = st.selectbox("Please select your language", lang)
-topic = st.text_input("Type your topic here", placeholder="e.g. Who is Elon Musk", help="Short forms are not allowed!")
+topic = st.text_input("Type your topic here", placeholder="e.g. who is elon musk", help="Abbreviations are prohibited! eg. NASA")
 
 # Search button
 btn = st.button("Search")
