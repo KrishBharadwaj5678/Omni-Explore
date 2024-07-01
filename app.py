@@ -22,7 +22,7 @@ getAllLang = wikipedia.languages()
 lang = [f"{code}: {getAllLang[code]}" for code in getAllLang]
 
 # User input: language and topic
-language = st.selectbox("Please select your language", lang)
+language = st.selectbox("Please select your language", lang, index=119)
 topic = st.text_input("Type your topic here", placeholder="e.g. who is elon musk", help="Abbreviations are prohibited! eg. NASA")
 
 # Search button
