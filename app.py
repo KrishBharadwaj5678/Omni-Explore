@@ -54,4 +54,4 @@ if btn:
     except wikipedia.exceptions.HTTPTimeoutError:
         st.error("Timeout error. Please try again later.")
     except Exception as e:
-        st.error(f"Error: {e}")
+        st.code(f"{e}")
