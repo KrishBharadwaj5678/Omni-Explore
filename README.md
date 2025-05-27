@@ -16,6 +16,16 @@ OmniExplore offers **limitless discovery**! Input any topic and specify your lan
 
 ---
 
+## Tech Stack ⚙️
+
+| **Technology**       | **Description**                                                         |
+| -------------------- | ----------------------------------------------------------------------- |
+| 🐍 **Python**        | Core programming language for building the application.                 |
+| 📊 **Streamlit**     | Framework for quickly creating interactive web apps and visualizations. |
+| 📚 **Wikipedia API** | Used for fetching detailed summaries and information from Wikipedia.    |
+
+---
+
 ## Installation 📥
 
 ### Clone this repo:
